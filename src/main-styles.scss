@@ -1,0 +1,19 @@
+//estilos globales y cambio de variables bulma
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:400,800,900');
+
+$family-sans-serif:"Nunito",sans-serif;
+
+$control-border-width:2px;
+$input-border-color:transparent;
+$input-shadow:none;
+
+/* Estilos globales */
+html,body{
+    height: 100%;
+}
+html {
+    background-image: url('./assets/img/background.jpg');
+    background-size: cover;
+    overflow-y: auto !important;
+}
